@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 from uk_bin_collection.uk_bin_collection.common import *
+from dateutil.parser import parse
+
+from uk_bin_collection.uk_bin_collection.common import check_uprn, check_postcode
 from uk_bin_collection.uk_bin_collection.get_bin_data import AbstractGetBinDataClass
 
 
